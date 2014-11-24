@@ -1,0 +1,117 @@
+<div id="branding" class="bar bar-header bar-calm padding-bottom">
+    <h1 class="title">Silvia's Soap</h1>
+    <i class="button icon-right ion-bag"></i>
+</div>
+
+<ion-view hide-back-button="true" title="Awesome">
+    <ion-content padding="true">
+    <h4>Scroll below to see diffrent types of soap.</h4>
+        <div class="list card" ng-repeat="soap in items">
+            <div class="item item-avatar">
+                {{ soap.collection_thumb }}
+                <h2>{{ soap.name }}</h2>
+                <p>{{ soap.description }}</p>
+            </div>
+
+            <div class="item item-image">
+                <img ng-src="{{ soap.image }}" style="max-width: 100%;">
+            </div>
+
+            <a class="item item-icon-left assertive" href="#">
+                <i class="icon ion-ios7-plus-outline"></i>
+                Add To Cart
+            </a>
+        </div>
+
+        <!--<div class="list card">-->
+            <!--<div class="item item-avatar">-->
+                <!--<img src="http://emileighgeibel.files.wordpress.com/2013/04/logos_16.gif">-->
+                <!--<h2>Seaweed olive oil soap</h2>-->
+                <!--<p>Premium Collection</p>-->
+            <!--</div>-->
+
+            <!--<div class="item item-image">-->
+                <!--<img src="https://d2miyn9rxnxy0l.cloudfront.net/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/100-percent-pure-organic-olive-oil-soap-seaweed.jpg">-->
+            <!--</div>-->
+
+            <!--<a class="item item-icon-left assertive" href="#">-->
+                <!--<i class="icon ion-ios7-plus-outline"></i>-->
+                <!--Add To Cart-->
+            <!--</a>-->
+
+        <!--</div>-->
+
+        <!--<div class="list card">-->
+            <!--<div class="item item-avatar">-->
+                <!--<img src="http://emileighgeibel.files.wordpress.com/2013/04/logos_16.gif">-->
+                <!--<h2>Oatmeal exfoliant soap with soothing lavender</h2>-->
+                <!--<p>Premium Collection</p>-->
+            <!--</div>-->
+
+            <!--<div class="item item-image">-->
+                <!--<img src="http://botaniesoap.com/media/cms_page_images/soap-os.gif">-->
+            <!--</div>-->
+
+            <!--<a class="item item-icon-left assertive" href="#">-->
+                <!--<i class="icon ion-ios7-plus-outline"></i>-->
+                <!--Add To Cart-->
+            <!--</a>-->
+
+        <!--</div>-->
+
+        <!--<div class="list card">-->
+            <!--<div class="item item-avatar">-->
+                <!--<img src="http://emileighgeibel.files.wordpress.com/2013/04/logos_16.gif">-->
+                <!--<h2>Peppermint Teatree</h2>-->
+                <!--<p>Premium Collection</p>-->
+            <!--</div>-->
+
+            <!--<div class="item item-image">-->
+                <!--<img src="http://media-cache-ec0.pinimg.com/236x/56/b7/d7/56b7d791a2b59860013f14ec800139cf.jpg">-->
+            <!--</div>-->
+
+            <!--<a class="item item-icon-left assertive" href="#">-->
+                <!--<i class="icon ion-ios7-plus-outline"></i>-->
+                <!--Add To Cart-->
+            <!--</a>-->
+
+        <!--</div>-->
+
+        <!--<div class="list card">-->
+            <!--<div class="item item-avatar">-->
+                <!--<img src="http://emileighgeibel.files.wordpress.com/2013/04/logos_16.gif">-->
+                <!--<h2>Eucalyptus Ginger Drop</h2>-->
+                <!--<p>Signature Collection</p>-->
+            <!--</div>-->
+
+            <!--<div class="item item-image">-->
+                <!--<img src="https://d2miyn9rxnxy0l.cloudfront.net/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/0/100-percent-pure-organic-olive-oil-soap-seaweed.jpg">-->
+            <!--</div>-->
+
+            <!--<a class="item item-icon-left assertive" href="#">-->
+                <!--<i class="icon ion-ios7-plus-outline"></i>-->
+                <!--Add To Cart-->
+            <!--</a>-->
+
+        <!--</div>-->
+
+        <!--<div class="list card">-->
+            <!--<div class="item item-avatar">-->
+                <!--<img src="http://emileighgeibel.files.wordpress.com/2013/04/logos_16.gif">-->
+                <!--<h2>Cinnamon Smoke</h2>-->
+                <!--<p>Premium Collection</p>-->
+            <!--</div>-->
+
+            <!--<div class="item item-image">-->
+                <!--<img src="http://botaniesoap.com/media/cms_page_images/soap-os.gif">-->
+            <!--</div>-->
+
+            <!--<a class="item item-icon-left assertive" href="#">-->
+                <!--<i class="icon ion-ios7-plus-outline"></i>-->
+                <!--Add To Cart-->
+            <!--</a>-->
+
+        <!--</div>-->
+    <!--<button class="button" ng-click="toIntro()">Do Tutorial Again</button>-->
+  </ion-content>
+</ion-view>
